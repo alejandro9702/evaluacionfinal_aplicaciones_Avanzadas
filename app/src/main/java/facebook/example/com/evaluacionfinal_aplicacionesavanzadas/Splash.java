@@ -23,7 +23,7 @@ public class Splash extends Activity {
             @Override
             public void run() {
                 try {
-                    sleep(5000);
+                    sleep(8000);
                     Intent intent = new Intent(getApplicationContext(),MainActivity.class);
                     startActivity(intent);
                     finish();
